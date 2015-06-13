@@ -1,0 +1,43 @@
+<!ENTITY title "Office 365 Mail Notifier">
+
+<!ENTITY yes "Oui">
+<!ENTITY no "Non">
+<!ENTITY seconds "secondes">
+
+<!ENTITY main.checkNow "Rafraichir...">
+<!ENTITY main.options.label "Préférences">
+<!ENTITY main.about.label "à propos de &title;">
+
+<!ENTITY tooltip.calendar.caption "Evenements">
+<!ENTITY tooltip.message.caption "Messages">
+
+<!ENTITY about.homepage.label "Site Web :">
+<!ENTITY about.about.label "&main.about.label;">
+<!ENTITY about.createdby.label "Créé par :">
+<!ENTITY about.version.label "Version">
+<!ENTITY about.legal.label "Cette extension n&apos;est pas affiliée à Microsoft ni soutenue par cette entreprise.">
+<!ENTITY about.close.label "Fermer">
+
+<!ENTITY option.option.label "Préférences">
+<!ENTITY option.common.label "General">
+<!ENTITY option.common.mail.notification.caption "Notification e-mail non lu">
+<!ENTITY option.common.mail.systemNotification "Notification système">
+<!ENTITY option.common.mail.soundNotification "Émettre un son">
+<!ENTITY option.common.mail.notify.duration.caption "Durée de la notification">
+<!ENTITY option.common.access.caption "Moyen d'accès au module">
+<!ENTITY option.common.statusbar "Barre des modules">
+
+<!ENTITY option.calendar.label "Calendrier">
+<!ENTITY option.calendar.activate "Activer la gestion du calendrier">
+<!ENTITY option.calendar.notification.caption "Notification">
+<!ENTITY option.calendar.systemNotification "Notification système">
+<!ENTITY option.calendar.soundNotification "Notification sonore">
+<!ENTITY option.calendar.repeat "Répéter">
+
+<!ENTITY option.message.label "Message">
+<!ENTITY option.message.activate "Activer la gestion des messages">
+<!ENTITY option.message.notification.caption "Notification">
+<!ENTITY option.message.systemNotification "System notification">
+<!ENTITY option.message.soundNotification "Sound notification">
+
+

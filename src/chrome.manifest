@@ -1,0 +1,12 @@
+content  office365_mail_notifier    chrome/content/
+resource office365_mail_notifier    modules/
+skin     office365_mail_notifier    classic/1.0      chrome/skin/
+locale   office365_mail_notifier    en-US            chrome/locale/en-US/
+locale   office365_mail_notifier    fr-FR            chrome/locale/fr-FR/
+locale   office365_mail_notifier    de-DE            chrome/locale/de-DE/
+locale   office365_mail_notifier    es-ES            chrome/locale/es-ES/
+locale   office365_mail_notifier    it-IT            chrome/locale/it-IT/
+locale   office365_mail_notifier    pt-BR            chrome/locale/pt-BR/
+locale   office365_mail_notifier    pt-PT            chrome/locale/pt-PT/
+style    chrome://global/content/customizeToolbar.xul  chrome://office365_mail_notifier/skin/global.css
+overlay  chrome://browser/content/browser.xul          chrome://office365_mail_notifier/content/overlay.xul

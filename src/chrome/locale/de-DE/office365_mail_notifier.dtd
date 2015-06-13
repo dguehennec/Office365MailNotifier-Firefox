@@ -1,0 +1,42 @@
+<!ENTITY title "Office 365 Mail Notifier">
+
+<!ENTITY yes "Ja">
+<!ENTITY no "Nein">
+<!ENTITY seconds "sekunden">
+
+<!ENTITY main.checkNow "Aktualisieren">
+<!ENTITY main.options.label "Einstellungen">
+<!ENTITY main.about.label "About &title;">
+
+<!ENTITY tooltip.calendar.caption "Nächste Events">
+<!ENTITY tooltip.message.caption "Nachricht">
+
+<!ENTITY about.homepage.label "Website:">
+<!ENTITY about.about.label "&main.about.label;">
+<!ENTITY about.createdby.label "Von:">
+<!ENTITY about.version.label "Version">
+<!ENTITY about.legal.label "Diese Erweiterung ist nicht zugehörig zu Microsoft.">
+<!ENTITY about.close.label "Schließen">
+
+<!ENTITY option.option.label "Einstellungen">
+<!ENTITY option.common.label "Generell">
+<!ENTITY option.common.mail.notification.caption "Benachrichtigung">
+<!ENTITY option.common.mail.systemNotification "System Benachrichtigung">
+<!ENTITY option.common.mail.soundNotification "Sound-Benachrichtigung">
+<!ENTITY option.common.mail.notify.duration.caption "Zeit der Benachrichtigung">
+<!ENTITY option.common.access.caption "Erweiterungszugang">
+<!ENTITY option.common.statusbar "Statusleiste">
+
+<!ENTITY option.calendar.label "Kalender">
+<!ENTITY option.calendar.activate "Kalendermanagement aktivieren">
+<!ENTITY option.calendar.notification.caption "Benachrichtigung">
+<!ENTITY option.calendar.systemNotification "System-Benachrichtigung">
+<!ENTITY option.calendar.soundNotification "Sound-Benachrichtigung">
+<!ENTITY option.calendar.repeat "Wiederholen">
+
+<!ENTITY option.message.label "Nachricht">
+<!ENTITY option.message.activate "Nachrichtmanagement aktivieren">
+<!ENTITY option.message.notification.caption "Benachrichtigung">
+<!ENTITY option.message.systemNotification "System-Benachrichtigung">
+<!ENTITY option.message.soundNotification "Sound-Benachrichtigung">
+

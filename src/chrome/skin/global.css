@@ -1,0 +1,117 @@
+.window {
+	font-size: 12px;
+}
+
+#office365_mail_notifier-status-icon {
+	list-style-image:
+		url("chrome://office365_mail_notifier/skin/images/office365_mail_notifier_icon.png");
+	-moz-image-region: rect(24px, 16px, 40px, 0px);
+}
+
+#office365_mail_notifier-status-icon[status="1"] {
+	-moz-image-region: rect(24px, 32px, 40px, 16px);
+}
+
+#office365_mail_notifier-status-icon[status="2"] {
+	-moz-image-region: rect(24px, 48px, 40px, 32px);
+}
+
+#office365_mail_notifier-status-icon[status="3"] {
+	-moz-image-region: rect(24px, 64px, 40px, 48px);
+}
+
+#office365_mail_notifier-toolbar-button {
+	list-style-image:
+		url("chrome://office365_mail_notifier/skin/images/office365_mail_notifier_icon.png");
+	-moz-image-region: rect(0px, 24px, 24px, 0px);
+}
+
+toolbar #office365_mail_notifier-toolbar-button {
+	-moz-binding:
+		url('chrome://office365_mail_notifier/content/overlay.xml#office365_mail_notifier-toolbarbutton');
+}
+
+toolbar #office365_mail_notifier-toolbar-button[status="1"] {
+	-moz-image-region: rect(0px, 48px, 24px, 24px);
+}
+
+toolbar #office365_mail_notifier-toolbar-button[status="2"] {
+	-moz-image-region: rect(0px, 72px, 24px, 48px);
+}
+
+toolbar #office365_mail_notifier-toolbar-button[status="3"] {
+	-moz-image-region: rect(0px, 96px, 24px, 72px);
+}
+
+toolbar[iconsize="small"] #office365_mail_notifier-toolbar-button {
+	-moz-image-region: rect(24px, 16px, 40px, 0px);
+}
+
+toolbar[iconsize="small"] #office365_mail_notifier-toolbar-button[status="1"] {
+	-moz-image-region: rect(24px, 32px, 40px, 16px);
+}
+
+toolbar[iconsize="small"] #office365_mail_notifier-toolbar-button[status="2"] {
+	-moz-image-region: rect(24px, 48px, 40px, 32px);
+}
+
+toolbar[iconsize="small"] #office365_mail_notifier-toolbar-button[status="3"] {
+	-moz-image-region: rect(24px, 64px, 40px, 48px);
+}
+
+toolbar #office365_mail_notifier-toolbar-button-label {
+	padding: 0px;
+	margin: 0px 0px -3px -2px;
+	text-align: left;
+	color: #3300FF;
+	font-weight: bold;
+	font-size: 12px;
+	text-shadow: -1px -1px #CCC, 1px -1px #CCC;
+}
+
+toolbar[iconsize="small"] #office365_mail_notifier-toolbar-button-label {
+	font-size: 11px;
+}
+
+#office365_mail_notifier-mainToolsCheckNow,#office365_mail_notifier-mainCheckNow {
+	list-style-image:
+		url("chrome://office365_mail_notifier/skin/images/office365_mail_notifier_button.png");
+	-moz-image-region: rect(0px, 80px, 16px, 64px);
+}
+
+#office365_mail_notifier-mainToolsOption,#office365_mail_notifier-mainOption {
+	list-style-image:
+		url("chrome://office365_mail_notifier/skin/images/office365_mail_notifier_button.png");
+	-moz-image-region: rect(0px, 64px, 16px, 48px);
+}
+
+#office365_mail_notifier-mainToolsAbout,#office365_mail_notifier-mainAbout {
+	list-style-image:
+		url("chrome://office365_mail_notifier/skin/images/office365_mail_notifier_button.png");
+	-moz-image-region: rect(0px, 48px, 16px, 32px);
+}
+
+#office365_mail_notifier-Preferences {
+	min-width: 400px;
+}
+
+#office365_mail_notifier_tooltipGeneral {
+	margin: 0px 6px;
+	font-size: 11px;
+	max-width: 330px;
+}
+
+#office365_mail_notifier_tooltipCalendar,#office365_mail_notifier_tooltipMessage {
+	margin: 0px 6px;
+	width: 250px;
+}
+
+.eventLabelName {
+	color: green;
+	font-size: 11px;
+}
+
+.eventLabelDescription {
+	font-size: 11px;
+	padding-left: 15px;
+}

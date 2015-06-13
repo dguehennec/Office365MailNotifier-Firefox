@@ -1,0 +1,41 @@
+<!ENTITY title "Office 365 Mail Notifier">
+
+<!ENTITY yes "yes">
+<!ENTITY no "no">
+<!ENTITY seconds "seconds">
+
+<!ENTITY main.checkNow "Refresh...">
+<!ENTITY main.options.label "Preferences">
+<!ENTITY main.about.label "About &title;">
+
+<!ENTITY tooltip.calendar.caption "Events">
+<!ENTITY tooltip.message.caption "Messages">
+
+<!ENTITY about.homepage.label "Web Site :">
+<!ENTITY about.about.label "&main.about.label;">
+<!ENTITY about.createdby.label "By :">
+<!ENTITY about.version.label "Version">
+<!ENTITY about.legal.label "This extension is not affiliated or endorsed by Microsoft.">
+<!ENTITY about.close.label "Close">
+
+<!ENTITY option.option.label "Preferences">
+<!ENTITY option.common.label "General">
+<!ENTITY option.common.mail.notification.caption "Notification unread mail">
+<!ENTITY option.common.mail.systemNotification "System notification">
+<!ENTITY option.common.mail.soundNotification "Sound notification">
+<!ENTITY option.common.mail.notify.duration.caption "Notification duration">
+<!ENTITY option.common.access.caption "Extension access">
+<!ENTITY option.common.statusbar "Statusbar">
+
+<!ENTITY option.calendar.label "Calendar">
+<!ENTITY option.calendar.activate "Enable calendar management">
+<!ENTITY option.calendar.notification.caption "Notification event">
+<!ENTITY option.calendar.systemNotification "System notification">
+<!ENTITY option.calendar.soundNotification "Sound notification">
+<!ENTITY option.calendar.repeat "Repeat">
+
+<!ENTITY option.message.label "Message">
+<!ENTITY option.message.activate "Enable message management">
+<!ENTITY option.message.notification.caption "Notification message">
+<!ENTITY option.message.systemNotification "System notification">
+<!ENTITY option.message.soundNotification "Sound notification">

@@ -1,0 +1,42 @@
+<!ENTITY title "Ofice 365 Mail Notifier">
+
+<!ENTITY yes "Si">
+<!ENTITY no "No">
+<!ENTITY seconds "segundo">
+
+<!ENTITY main.checkNow "Recargar...">
+<!ENTITY main.options.label "Preferencias">
+<!ENTITY main.about.label "Acerca de &title;">
+
+<!ENTITY tooltip.calendar.caption "Próximos evento">
+<!ENTITY tooltip.message.caption "Charla actuales">
+
+<!ENTITY about.homepage.label "Página Web:">
+<!ENTITY about.about.label "&main.about.label;">
+<!ENTITY about.createdby.label "Creado por">
+<!ENTITY about.version.label "Versión">
+<!ENTITY about.legal.label "Esta extensión no está afiliada a Microsoft ni avalada por ella.">
+<!ENTITY about.close.label "Cerrar">
+
+<!ENTITY option.option.label "Preferencias">
+<!ENTITY option.common.label "General">
+<!ENTITY option.common.mail.notification.caption "Notificación">
+<!ENTITY option.common.mail.systemNotification "Notificación del sistema">
+<!ENTITY option.common.mail.soundNotification "Notificación sonora">
+<!ENTITY option.common.mail.notify.duration.caption "Duración de notificación">
+<!ENTITY option.common.access.caption "Acceso a la extensión">
+<!ENTITY option.common.statusbar "Barra de estado">
+
+<!ENTITY option.calendar.label "Calendario">
+<!ENTITY option.calendar.activate "Activar la gestión del calendario">
+<!ENTITY option.calendar.notification.caption "Notificación">
+<!ENTITY option.calendar.systemNotification "Notificación del sistema">
+<!ENTITY option.calendar.soundNotification "Notificación sonora">
+<!ENTITY option.calendar.repeat "Repetir">
+
+<!ENTITY option.message.label "Charla">
+<!ENTITY option.message.activate "Activar la gestión de Charla">
+<!ENTITY option.message.notification.caption "Notificación">
+<!ENTITY option.message.systemNotification "Notificación del sistema">
+<!ENTITY option.message.soundNotification "Notificación sonora">
+

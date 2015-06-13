@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://office365_mail_notifier/skin/global.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://office365_mail_notifier/locale/office365_mail_notifier.dtd">
+
+<prefwindow id="office365_mail_notifier-Preferences"
+    title="&option.option.label;"
+    orient="vertical"
+    onload="com.office365.Options.init();"
+    onbeforeaccept="com.office365.Options.validated();"
+    onunload="com.office365.Options.release();"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <prefpane id="option-tab-common" label="&option.common.label;" image="chrome://office365_mail_notifier/skin/images/prefs/general.png">
+        <preferences id="option-prefs-common">
+            <preference id="office365_mail_notifier-optionAccessStatusBar" name="extensions.office365_mail_notifier.accessStatusBar" type="bool"/>
+            <preference id="office365_mail_notifier-optionMailNotification" name="extensions.office365_mail_notifier.systemNotificationEnabled" type="bool"/>
+            <preference id="office365_mail_notifier-optionMailSound" name="extensions.office365_mail_notifier.soundEnabled" type="bool"/>
+            <preference id="office365_mail_notifier-optionMailNotifyDuration" name="extensions.office365_mail_notifier.emailNotificationDuration" type="int"/>
+        </preferences>
+
+        <vbox flex="1">
+            <groupbox width="100%">
+                <caption label="&option.common.mail.notification.caption;"/>
+                <checkbox preference="office365_mail_notifier-optionMailNotification" label="&option.common.mail.systemNotification;" checked="true"/>
+                <checkbox preference="office365_mail_notifier-optionMailSound" label="&option.common.mail.soundNotification;" checked="true"/>
+                <hbox align="center" id="office365_mail_notifier-hboxMailNotifyDuration">
+                    <label value="&option.common.mail.notify.duration.caption; :"/>
+                    <textbox style="max-width:55px" type="number" min="1" max="980" increment="4" preference="office365_mail_notifier-optionMailNotifyDuration"/>
+                    <label value="&seconds;"/>
+                    <spacer flex="1"/>
+                </hbox>
+            </groupbox>
+            <groupbox width="100%">
+                <caption label="&option.common.access.caption;"/>
+                <checkbox preference="office365_mail_notifier-optionAccessStatusBar" label="&option.common.statusbar;" checked="true"/>
+            </groupbox>
+        </vbox>
+    </prefpane>
+    <prefpane id="option-tab-calendar" label="&option.calendar.label;" image="chrome://office365_mail_notifier/skin/images/prefs/calendar.png">
+        <preferences id="option-prefs-calendar">
+            <preference id="office365_mail_notifier-optionCalendarActivate" name="extensions.office365_mail_notifier.calendarEnabled" type="bool"/>
+            <preference id="office365_mail_notifier-optionCalendarSystemNotification" name="extensions.office365_mail_notifier.calendarSystemNotificationEnabled" type="bool"/>
+            <preference id="office365_mail_notifier-optionCalendarSoundNotification" name="extensions.office365_mail_notifier.calendarSoundEnabled" type="bool"/>
+            <preference id="office365_mail_notifier-optionCalendarReminderNbRepeat" name="extensions.office365_mail_notifier.calendarReminderRepeatNb" type="int"/>
+        </preferences>
+
+        <vbox flex="1">
+            <checkbox preference="office365_mail_notifier-optionCalendarActivate" label="&option.calendar.activate;" checked="true"/>
+            <groupbox width="100%">
+                <caption label="&option.calendar.notification.caption;"/>
+                <checkbox preference="office365_mail_notifier-optionCalendarSystemNotification" label="&option.calendar.systemNotification;" checked="true"/>
+                <checkbox preference="office365_mail_notifier-optionCalendarSoundNotification" label="&option.calendar.soundNotification;" checked="true"/>
+                <hbox align="center">
+                    <label value="&option.calendar.repeat; :"/>
+                    <menulist preference="office365_mail_notifier-optionCalendarReminderNbRepeat">
+                        <menupopup>
+                            <menuitem label="&no;" value="0"/>
+                            <menuitem label="1" value="1"/>
+                            <menuitem label="2" value="2"/>
+                            <menuitem label="3" value="3"/>
+                            <menuitem label="5" value="5"/>
+                            </menupopup>
+                    </menulist>
+                    <spacer flex="1"/>
+                </hbox>
+            </groupbox>
+        </vbox>
+    </prefpane>
+    <prefpane id="option-tab-message" label="&option.message.label;" image="chrome://office365_mail_notifier/skin/images/prefs/message.png">
+        <preferences id="option-prefs-message">
+            <preference id="office365_mail_notifier-optionMessageActivate" name="extensions.office365_mail_notifier.messageEnabled" type="bool"/>
+            <preference id="office365_mail_notifier-optionMessageSystemNotification" name="extensions.office365_mail_notifier.messageSystemNotificationEnabled" type="bool"/>
+            <preference id="office365_mail_notifier-optionMessageSoundNotification" name="extensions.office365_mail_notifier.messageSoundEnabled" type="bool"/>
+        </preferences>
+
+        <vbox flex="1">
+            <checkbox preference="office365_mail_notifier-optionMessageActivate" label="&option.message.activate;" checked="true"/>
+            <groupbox width="100%">
+                <caption label="&option.message.notification.caption;"/>
+                <checkbox preference="office365_mail_notifier-optionMessageSystemNotification" label="&option.message.systemNotification;" checked="true"/>
+                <checkbox preference="office365_mail_notifier-optionMessageSoundNotification" label="&option.message.soundNotification;" checked="true"/>
+            </groupbox>
+        </vbox>
+    </prefpane>
+    <script type="application/x-javascript" src="chrome://office365_mail_notifier/content/class/uiutil.js"/>
+    <script type="application/x-javascript" src="chrome://office365_mail_notifier/content/options.js"/>
+</prefwindow>

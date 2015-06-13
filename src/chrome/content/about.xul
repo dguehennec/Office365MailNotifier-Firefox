@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/global.css" type="text/css"?>
+<?xml-stylesheet href="chrome://office365_mail_notifier/skin/global.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://office365_mail_notifier/locale/office365_mail_notifier.dtd">
+<dialog id="office365_mail_notifier-about" title="&about.about.label;"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    orient="vertical" buttons="accept" width="270">
+
+    <groupbox orient="vertical">
+        <hbox align="center">
+            <vbox >
+                <image src="chrome://office365_mail_notifier/skin/images/office365_mail_notifier.png"/>
+                <spacer flex="1"/>
+            </vbox>
+            <spring flex="1"/>
+            <vbox align="center" flex="1">
+                <hbox flex="1" align="center">
+                    <spacer flex="1"/>
+                    <text value="&about.version.label;" style="margin-top:4px;"/>
+                    <label value="1.0.0" style="font-weight: bold; font-size: 18px;"/>
+                </hbox>
+                <separator class="thin" />
+                <text value="&about.createdby.label;" style="font-weight: bold;" />
+                <text value="David GUEHENNEC" />
+            </vbox>
+        </hbox>
+        <separator class="thin" />
+        <description style="height:4em;">&about.legal.label;</description>
+    </groupbox>
+</dialog>
