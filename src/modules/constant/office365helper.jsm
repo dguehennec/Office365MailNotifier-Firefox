@@ -50,7 +50,7 @@ var office365_notifier_Constant = {};
  * 
  * @constant
  */
-office365_notifier_Constant.VERSION = 0x010000;
+office365_notifier_Constant.VERSION = 0x010001;
 
 /**
  * Logger level

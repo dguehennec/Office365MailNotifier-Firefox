@@ -259,7 +259,9 @@ office365_notifier_Service.prototype._refreshState = function() {
         if (elementTimeDuration.length > 0) {
             eventTimeDuration = elementTimeDuration[0].textContent;
         }
-        this._eventsManager.addNewEvent(new office365_notifier_calEvent(eventTitle, eventTimeDuration, eventTimeToStart));
+        if ((eventTitle != "") && (eventTimeDuration != "")) {
+            this._eventsManager.addNewEvent(new office365_notifier_calEvent(eventTitle, eventTimeDuration, eventTimeToStart));
+        }
     }
     
     this._logger.info("Check message events");
