@@ -102,7 +102,7 @@ com.office365.Main.release = function() {
  * @return {Boolean} true, if URL is Office 365 web site
  */
 com.office365.Main.isOffice365WebSite = function(href) {
-    return (href.indexOf(com.office365_notifier_Constant.URLS.SITE_DEFAULT) >= 0);
+    return com.office365_notifier_Constant.URLS.SITES_OFFICE365.test(href);
 };
 
 /**
